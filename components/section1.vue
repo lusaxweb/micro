@@ -11,13 +11,13 @@
 
     <div class="con-text">
       <h2>
-        {{ $t('section1.title') }}
+        Title-x
       </h2>
       <p>
-        {{ $t('section1.text') }}
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia molestias iusto eveniet, voluptatem, necessitatibus esse doloribus enim, tenetur dignissimos veritatis amet? Odit id aliquid delectus deserunt esse labore fugiat et.
       </p>
 
-      <button>{{ $t('section1.btn') }}</button>
+      <button>See More</button>
     </div>
 
   </div>

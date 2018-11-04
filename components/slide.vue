@@ -4,10 +4,10 @@
     class="section--0 sections">
     <div class="con-text-0">
       <h1>
-        {{ $t('section0.title') }}
+        Title
       </h1>
       <p>
-        {{ $t('section0.text') }}
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus praesentium commodi numquam perspiciatis rerum, voluptates consectetur ab facilis nemo blanditiis harum perferendis cum. Eveniet laboriosam assumenda quis similique dolor deleniti!
       </p>
 
     </div>

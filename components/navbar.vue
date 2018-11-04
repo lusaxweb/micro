@@ -7,8 +7,8 @@
     </div>
 
     <div class="nav-bar--btns">
-      <button class="btns--login">{{ $t('links.login') }}</button>
-      <button class="btns--register">{{ $t('links.register') }}</button>
+      <button class="btns--login">Login</button>
+      <button class="btns--register">Register</button>
     </div>
   </nav>
 </template>

@@ -2,12 +2,6 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
-  router: {
-    middleware: 'i18n'
-  },
-  generate: {
-    routes: ['/', '/ja']
-  },
   /*
   ** Headers of the page
   */
@@ -40,7 +34,6 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '~/plugins/i18n.js',
     '~/plugins/particles.js'
   ],
   /*
