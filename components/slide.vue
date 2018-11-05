@@ -4,12 +4,12 @@
     class="section--0 sections">
     <div class="con-text-0">
       <h1>
-        Title
+        31 NOV 2018
       </h1>
       <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Temporibus praesentium commodi numquam perspiciatis rerum, voluptates consectetur ab facilis nemo blanditiis harum perferendis cum. Eveniet laboriosam assumenda quis similique dolor deleniti!
+        Why is the most progressive Mining Exchange that started in Brazil moving across the border and into the world?
       </p>
-
+      <button class="btnx">TOKEN SALE</button>
     </div>
 
     <div class="con-img">
@@ -60,6 +60,15 @@ export default {
 
 <style lang="stylus">
 @require '../styles/main.styl'
+.btnx
+  padding 10px 30px
+  border-radius 20px
+  margin-top 20px
+  border 1px solid colorx(primary)
+  background transparent
+  transition all .25s ease
+  &:hover
+    background colorx(primary)
 .section--0
   width 100%
   height 100vh

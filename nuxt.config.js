@@ -2,6 +2,9 @@ const pkg = require('./package')
 
 module.exports = {
   mode: 'spa',
+  router: {
+    base: '/micro/'
+  },
   /*
   ** Headers of the page
   */

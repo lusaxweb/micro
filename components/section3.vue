@@ -28,7 +28,16 @@
       :class="{'activex': active}"
       class="con-texts-user">
       <h4>{{ team[activeIndex].name }}</h4>
-      <p>{{ team[activeIndex].description }}</p>
+      <!-- <p>{{ team[activeIndex].description }}</p> -->
+      <ul>
+        <li v-if="team[activeIndex].linkedin">
+          <a
+            :href="team[activeIndex].linkedin"
+            target="_blank">
+            <span class="flaticon-linkedin" />
+          </a>
+        </li>
+      </ul>
     </div>
   </section>
 </template>
@@ -39,49 +48,49 @@ export default {
     activeIndex: 0,
     team: [
       {
-        name: 'Jessica Jones 0',
+        name: 'Tony tong',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
+        twitter: '',
+        linkedin: 'https://www.linkedin.com/in/ttpact/',
+        facebook: ''
+      },
+      {
+        name: 'Jeans tang',
+        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
+        twitter: '',
+        linkedin: 'https://www.linkedin.com/in/jeanstang/',
+        facebook: ''
+      },
+      {
+        name: 'Alex wu',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
         twitter: '',
         linkedin: '',
         facebook: ''
       },
       {
-        name: 'Jessica Jones 1',
+        name: 'Gilson Paulo da Silva Junior',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
         twitter: '',
-        linkedin: '',
+        linkedin: 'http://www.linkedin.com/in/paulocrp77',
         facebook: ''
       },
       {
-        name: 'Jessica Jones 2',
+        name: 'Alexandre Moura De Souza Santos',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
         twitter: '',
-        linkedin: '',
+        linkedin: 'https://www.linkedin.com/in/gilson-paulo-da-silva-junior-014b72171/',
         facebook: ''
       },
       {
-        name: 'Jessica Jones 3',
+        name: 'Henry Kim',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
         twitter: '',
-        linkedin: '',
+        linkedin: 'https://www.linkedin.com/in/henry-kim-69614a163/',
         facebook: ''
       },
       {
-        name: 'Jessica Jones 4',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
-        twitter: '',
-        linkedin: '',
-        facebook: ''
-      },
-      {
-        name: 'Jessica Jones 5',
-        description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
-        twitter: '',
-        linkedin: '',
-        facebook: ''
-      },
-      {
-        name: 'Jessica Jones 6',
+        name: 'Renato Pires de Oliveira',
         description: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea laboriosam, id accusantium autem dolores pariatur minus eius voluptate! Aliquam beatae corrupti officia est temporibus voluptates, maiores tempore laboriosam maxime ducimus.',
         twitter: '',
         linkedin: '',
@@ -127,7 +136,12 @@ export default {
   visibility hidden
   transform translate(-200px) scale(.6)
   transition all .1s ease
-  z-index 100
+  z-index 1000
+  ul
+    li
+      a
+        padding 10px
+        display block
   h4
     font-weight normal
     padding 10px

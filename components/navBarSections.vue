@@ -1,7 +1,7 @@
 <template>
   <nav class="nav-bar-sections">
     <h3 class="title-section">
-      Micro Open
+      {{ sections[section].title }}
     </h3>
     <div class="con-lang">
       <div class="lang-value">
@@ -60,32 +60,32 @@ export default {
     sectionActive: 0,
     sections: [
       {
-        title: 'hola mundo',
+        title: 'MICRO OPEN',
         numero: '01',
         active: false
       },
       {
-        title: 'hola mundo',
+        title: 'INTERFACE',
         numero: '02',
         active: false
       },
       {
-        title: 'hola mundo',
+        title: 'FEATURES MICRO',
         numero: '03',
         active: false
       },
       {
-        title: 'hola mundo',
+        title: 'TEAM',
         numero: '04',
         active: false
       },
       {
-        title: 'hola mundo',
+        title: 'Partners',
         numero: '05',
         active: false
       },
       {
-        title: 'hola mundo',
+        title: 'ROAD MAP',
         numero: '06',
         active: false
       },
@@ -121,12 +121,13 @@ export default {
 
 .title-section
   position absolute
-  top 65px
-  right 0px
+  top 55px
+  right 65px
   font-weight normal
   letter-spacing 1px
-  font-size 1.4rem
-  transform translate(-55px) rotate(90deg)
+  font-size 1.2rem
+  text-transform uppercase
+  text-align right
 
 .con-lang
   position absolute
@@ -260,8 +261,9 @@ export default {
 
 @media only screen and (max-width: 768px)
   .title-section
-    font-size 1rem
-    transform translate(-25px) rotate(90deg)
+    right 30px
+    // font-size 1rem
+    // transform translate(-25px) rotate(90deg)
   .con-lang
     .lang-value
       font-size .6rem !important

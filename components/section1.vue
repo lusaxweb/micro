@@ -11,10 +11,11 @@
 
     <div class="con-text">
       <h2>
-        Title-x
+        Micro Platform Introduction
       </h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia molestias iusto eveniet, voluptatem, necessitatibus esse doloribus enim, tenetur dignissimos veritatis amet? Odit id aliquid delectus deserunt esse labore fugiat et.
+        "It`s half what we see. It's more than that."
+        The MICRO design, which incorporates global trend reflection and convenient UI, seeks to be the most complete
       </p>
 
       <button>See More</button>
@@ -87,13 +88,16 @@ export default {
       background-image: linear-gradient(-90deg, colorx(bg) 15%, transparent 60%);
       // background-image: linear-gradient(-90deg, rgb(0,0,100) 0%, transparent 100%);
     button
-      padding 10px 40px
+      padding 8px 40px
       margin-top 20px
       border-radius 20px
       border 2px solid colorx(primary, .2)
       background transparent
       z-index 200
       position relative
+      transition all .25s ease
+      &:hover
+        background colorx(primary, 1)
     p
       position relative
       letter-spacing 1px

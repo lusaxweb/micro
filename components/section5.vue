@@ -35,8 +35,17 @@
           </p>
         </li>
       </ul>
-    </div>
 
+
+
+    </div>
+    <div class="con-datax">
+      CNPJ 24.243.884/0001-73
+      <br>
+      E-mail <a href="mailto:suporte@micro.com">suporte@micro.com</a>
+      <br>
+      Copyright 2017 - All rights reserved
+    </div>
   </section>
 </template>
 <script>
@@ -91,6 +100,13 @@ export default {
 </script>
 <style lang="stylus">
 @require '../styles/main.styl'
+
+.con-datax
+  position absolute
+  bottom 60px
+  left 10px
+  font-size .85rem
+
 .section--5
   width 100%
   height 100vh
