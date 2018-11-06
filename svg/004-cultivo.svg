@@ -1,0 +1,12 @@
+<svg id="_004-cultivo" data-name="004-cultivo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 459 459">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="crop-free">
+    <path id="Path_29" data-name="Path 29" class="cls-1" d="M0,51V153H51V51H153V0H51A51.15,51.15,0,0,0,0,51ZM51,306H0V408a51.15,51.15,0,0,0,51,51H153V408H51ZM408,408H306v51H408a51.15,51.15,0,0,0,51-51V306H408ZM408,0H306V51H408V153h51V51A51.15,51.15,0,0,0,408,0Z"/>
+  </g>
+</svg>

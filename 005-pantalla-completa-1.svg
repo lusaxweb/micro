@@ -1,0 +1,12 @@
+<svg id="_005-pantalla-completa-1" data-name="005-pantalla-completa-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 357 357">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="fullscreen-exit">
+    <path id="Path_32" data-name="Path 32" class="cls-1" d="M0,280.5H76.5V357h51V229.5H0Zm76.5-204H0v51H127.5V0h-51ZM229.5,357h51V280.5H357v-51H229.5Zm51-280.5V0h-51V127.5H357v-51Z"/>
+  </g>
+</svg>
